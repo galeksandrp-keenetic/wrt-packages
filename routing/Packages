@@ -1,0 +1,30 @@
+Package: mcproxy
+Version: 2014-05-02-bbb2e7ee230c172e68766946e4b4e48f7449ee15-1
+Depends: libc, libpthread, libstdcpp
+Source: feeds/routing/mcproxy
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 116796
+Filename: mcproxy_2014-05-02-bbb2e7ee230c172e68766946e4b4e48f7449ee15-1_ramips_24kec.ipk
+Size: 117658
+MD5Sum: ddc20fbda2d9f92ec340f18f486af84b
+SHA256sum: 4ce62ba7b604a1bacf318f5aab6844b04f7ff520f17e1eace41bde833642f7dc
+Description:  mcproxy is a free & open source implementation of the IGMP/MLD proxy function (see  RFC 4605) for Linux systems.
+ It operates on the kernel tables for multicast routing and allows for multiple instantiations,
+ as well as dynamically changing downstream interfaces.
+
+Package: miniupnpd
+Version: 1.8.20140523-4
+Depends: libc, iptables, libip4tc, libnfnetlink
+Source: feeds/routing/miniupnpd
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: ramips_24kec
+Installed-Size: 48759
+Filename: miniupnpd_1.8.20140523-4_ramips_24kec.ipk
+Size: 49466
+MD5Sum: b94224ceabb56073fa23f124147ac66d
+SHA256sum: 18cf1d6e4ed932fb2a03e09607be3e612f1f73a0f1cbfa0395ad97d0f465825d
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+

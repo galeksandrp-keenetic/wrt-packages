@@ -1,0 +1,15 @@
+Package: smap
+Version: 0.6.0-2
+Depends: libc, libpthread
+Source: feeds/telephony/net/smap
+Section: net
+Maintainer: Daniel Dickinson <openwrt@cshore.neomailbox.net>
+Architecture: ramips_24kec
+Installed-Size: 21594
+Filename: smap_0.6.0-2_ramips_24kec.ipk
+Size: 22220
+MD5Sum: 7c488ebe3432272a2c183e14b9757ea8
+SHA256sum: 3896dfbb0a9dcc108094bb1d825cfc8eda13537eee205863a3fef256c701b221
+Description:  Discovers and identifies SIP devices on the network including hardware
+ phones, softphones, PBX software, and PBX equipment.
+

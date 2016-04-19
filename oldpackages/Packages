@@ -1,0 +1,594 @@
+Package: fswebcam
+Version: 20110717-1
+Depends: libc, libgd
+Source: feeds/oldpackages/multimedia/fswebcam
+Section: multimedia
+Architecture: ramips_24kec
+Installed-Size: 36298
+Filename: fswebcam_20110717-1_ramips_24kec.ipk
+Size: 36985
+MD5Sum: a0b99db342d093fea695c01b581cbdad
+SHA256sum: df24fbd01caa6bb0967874a5bdd003fb365e714bf266daacc5ff00b3b33e2c52
+Description:  fswebcam is a neat and simple webcam app. It captures images from a V4L1/V4L2 compatible
+ device or file, averages them to reduce noise and draws a caption using the GD Graphics
+ Library which also handles compressing the image to PNG or JPEG. The resulting image
+ is saved to a file or sent to stdio where it can be piped to something like ncftpput or scp.
+
+Package: gsm-utils
+Version: 1.0.13-1
+Depends: libc, libgsm
+Source: feeds/oldpackages/libs/gsm
+License: FREE
+LicenseFiles: COPYRIGHT
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 9654
+Filename: gsm-utils_1.0.13-1_ramips_24kec.ipk
+Size: 10375
+MD5Sum: c50381cc9efb45828d863ee0a527f85c
+SHA256sum: de27dd6b0ef34f8f98ae18b3ffb88384cf2b5dcb009a1fa9f7fe64e23403287d
+Description:  An implementation of the European GSM 06.10 provisional standard
+ for full-rate speech transcoding, prI-ETS 300 036, which uses
+ RPE/LTP (residual pulse excitation/long term prediction) coding
+ at 13 kbit/s.
+ This package contains GSM transcoding utilities.
+
+Package: hd-idle
+Version: 1.04-1
+Depends: libc
+Source: feeds/oldpackages/utils/hd-idle
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 4748
+Filename: hd-idle_1.04-1_ramips_24kec.ipk
+Size: 5296
+MD5Sum: 56ee21ec4f95ebf49596638bd59d50a2
+SHA256sum: c9b065386d78cc2a62432db1cff93d9ba0b968a26dff1aae2a6771e49e911d36
+Description:  Another idle-daemon for attached hard drives
+
+Package: hdparm
+Version: 9.39-1
+Depends: libc
+Source: feeds/oldpackages/utils/hdparm
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 41490
+Filename: hdparm_9.39-1_ramips_24kec.ipk
+Size: 41965
+MD5Sum: d60abad0c46228b87620069ac861acd9
+SHA256sum: 7b22d759b41dd523507e1c9b8f47f728fcc3a038496b5e21c6794f8f24f72589
+Description:  get/set SATA/IDE device parameters
+
+Package: httping
+Version: 2.3.4-1
+Depends: libc, libopenssl
+Source: feeds/oldpackages/net/httping
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 26950
+Filename: httping_2.3.4-1_ramips_24kec.ipk
+Size: 27496
+MD5Sum: 4d27b4e7cc6e8ba33fffada19f9078db
+SHA256sum: 2c0b9bd710a0ea3974781eded30059b031c552e1f1449054512ac0213590b9be
+Description:  Give it an url, and it'll show you how long it takes to connect, send a
+ request and retrieve the reply (only the headers). Be aware that the
+ transmission across the network also takes time!
+ This package is built with SSL support.
+
+Package: libdlna
+Version: 0.2.4-1
+Depends: libc, libffmpeg
+Source: feeds/oldpackages/libs/libdlna
+License: LGPLv2.1+
+LicenseFiles: COPYING
+Section: libs
+Architecture: ramips_24kec
+Installed-Size: 15490
+Filename: libdlna_0.2.4-1_ramips_24kec.ipk
+Size: 15487
+MD5Sum: 8f8fc9d05a8f49d675ce00438ffb52f0
+SHA256sum: 6d43b00c2700c6e914ed63c6830a3ea3372533482d86388a65d6957aa98fdb1a
+Description:  libdlna aims at being the reference open-source implementation of DLNA
+ (Digital Living Network Alliance) standards. Its primary goal is to
+ provide DLNA support to uShare, an embedded DLNA & UPnP A/V Media Server,
+ but it will be used to build both DLNA servers and players in the long
+ term.
+
+Package: libgsm
+Version: 1.0.13-1
+Depends: libc
+Source: feeds/oldpackages/libs/gsm
+License: FREE
+LicenseFiles: COPYRIGHT
+Section: libs
+Architecture: ramips_24kec
+Installed-Size: 11529
+Filename: libgsm_1.0.13-1_ramips_24kec.ipk
+Size: 12012
+MD5Sum: b807500421f0ed9ca1e6a207f35e13d4
+SHA256sum: 678a96e4f3e2486a9df6968ac7e2862226dc74c15fb63703b325f356851c172b
+Description:  An implementation of the European GSM 06.10 provisional standard
+ for full-rate speech transcoding, prI-ETS 300 036, which uses
+ RPE/LTP (residual pulse excitation/long term prediction) coding
+ at 13 kbit/s.
+ This package contains a shared GSM transcoding library, used by other
+ programs.
+
+Package: libnet1
+Version: 1.1.6-1
+Depends: libc, libpcap
+Source: feeds/oldpackages/libs/libnet-1.1.x
+Section: libs
+Architecture: ramips_24kec
+Installed-Size: 27748
+Filename: libnet1_1.1.6-1_ramips_24kec.ipk
+Size: 28316
+MD5Sum: 84f26cb6e1968e9fe3e2a0f6f15c24c8
+SHA256sum: 13668598b4b7929f6b703a1b8a273733862c734644f7b97fc498318730e3d1c1
+Description:  Low-level packet creation library (v1.1.x)
+
+Package: mac-to-devinfo
+Version: 1.0.0-2
+Depends: libc
+Source: feeds/oldpackages/net/mac-to-devinfo
+Section: net
+Maintainer: Daniel Dickinson <openwrt@cshore.neomailbox.net>
+Architecture: ramips_24kec
+Installed-Size: 3949
+Filename: mac-to-devinfo_1.0.0-2_ramips_24kec.ipk
+Size: 4674
+MD5Sum: b879bb3fcea3c75ffe6c07e9ef6d1326
+SHA256sum: d797038fd5116f0a8e2a588f4a0496c1e6f8866494e1c5aceed16e5b971042cc
+Description:  Scripts to take a mac address (or ip if the ip is in the arp cache)
+ and translate it into device information (mostly OUI owner, from the
+ IEEE data files, but more information may be available for specific
+ devices/vendors).
+
+Package: mc
+Version: 4.8.10-1
+Depends: libc, glib2, libncurses, librpc
+Source: feeds/oldpackages/utils/mc
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 405118
+Filename: mc_4.8.10-1_ramips_24kec.ipk
+Size: 405400
+MD5Sum: cb6fd07f2ebb8b1406684ac700b2701e
+SHA256sum: d4da743c9fa5f1f046179e856a71df648f30d813030d6bce4ab5a1d438769bba
+Description:  GNU Midnight Commander is a visual file manager, licensed under GNU General
+ Public License and therefore qualifies as Free Software. It's a feature rich
+ full-screen text mode application that allows you to copy, move and delete
+ files and whole directory trees, search for files and run commands in the
+ subshell.
+
+Package: mtd-utils
+Version: 1.5.0-2
+Depends: libc
+Source: feeds/oldpackages/utils/mtd-utils
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 103
+Filename: mtd-utils_1.5.0-2_ramips_24kec.ipk
+Size: 617
+MD5Sum: 5adbf22f4e30dc93dbbb90e460ffb50f
+SHA256sum: bd7a7ddf19a4ab93771bd4c2b54a026742db8c218704c0c3ae08aea323bc2a19
+Description:  Utilities for manipulating memory technology devices.
+
+Package: multiwan
+Version: 1.0.22-2
+Depends: libc, ip, iptables, kmod-ipt-conntrack, iptables-mod-conntrack-extra, iptables-mod-ipopt
+Source: feeds/oldpackages/net/multiwan
+Section: net
+Maintainer: Craig M. Coffee <craigc@netlab7.com>
+Architecture: ramips_24kec
+Installed-Size: 7627
+Filename: multiwan_1.0.22-2_ramips_24kec.ipk
+Size: 8445
+MD5Sum: 3a6cd021b422276be4f7e9b14f677c34
+SHA256sum: b2453c14caa88aeae62ce068a4fab54445a7478bf8874157df31163c2f5d9015
+Description:  An agent script that makes Multi-WAN configuration simple,
+ easy and manageable. Complete with load balancing, failover and an easy
+ to manage traffic ruleset.
+
+Package: netdiscover
+Version: 0.3-beta6-3
+Depends: libc, libpcap, libnet1, libpthread
+Source: feeds/oldpackages/net/netdiscover
+Section: net
+Maintainer: Daniel Dickinson <openwrt@cshore.neomailbox.net>
+Architecture: ramips_24kec
+Installed-Size: 126162
+Filename: netdiscover_0.3-beta6-3_ramips_24kec.ipk
+Size: 121207
+MD5Sum: 23622c0231934d1317855be5efe75438
+SHA256sum: bf0f31203b61165474463a8ae36cd41c5786df945929a3f371f11d0af0224888
+Description:  An active/passive address reconnaissance tool
+
+Package: netdiscover-to-devinfo
+Version: 1.0.0-2
+Depends: libc, mac-to-devinfo, netdiscover
+Source: feeds/oldpackages/net/mac-to-devinfo
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 1094
+Filename: netdiscover-to-devinfo_1.0.0-2_ramips_24kec.ipk
+Size: 1690
+MD5Sum: a988293c3d85f2ab8425e2d1d043b680
+SHA256sum: f65886e5ab1165b0905fb3fb65225ca0c1aa23b168d42317cd348dc8886244af
+Description:  A script to use netdiscover to discover all devices on the specified
+ arp-able networks and translate into the device information.
+
+Package: nfs-server
+Version: 2.2beta47-3
+Depends: libc, portmap, librpc
+Source: feeds/oldpackages/net/nfs-server
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 50877
+Filename: nfs-server_2.2beta47-3_ramips_24kec.ipk
+Size: 50788
+MD5Sum: 5d007796a5b4dd2ec7cc034fa05c0f7e
+SHA256sum: e819f913983420b08fdb02900f6d6c744796f0bedc1282c49862abc23ec9f813
+Description:  User Space NFS server
+
+Package: nmap
+Version: 6.46-1
+Depends: libc, libpcap, libstdcpp
+Source: feeds/oldpackages/net/nmap
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 1728481
+Filename: nmap_6.46-1_ramips_24kec.ipk
+Size: 1721896
+MD5Sum: b0b8478e30511ad6708ad1fb5589c8b1
+SHA256sum: ed3c2590ee22c5093123c3a470f8df0741cc14ec9d03678dc5eaecd4cc0543c1
+Description:  Utility for network exploration or security auditing
+
+Package: ntfs-3g
+Version: 2014.2.15-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+Source: feeds/oldpackages/utils/ntfs-3g
+Section: utils
+Maintainer: Bud <wrt_buddhay@gmx.net>
+Architecture: ramips_24kec
+Installed-Size: 177880
+Filename: ntfs-3g_2014.2.15-1-fuseint_ramips_24kec.ipk
+Size: 178769
+MD5Sum: e3675b439b9c2348e177823578d63c18
+SHA256sum: 18e81095fadbafe776a32c7633367186d3af21e2ef14ffa5ceb9b4a14491b989
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: ntfs-3g-low
+Version: 2014.2.15-1-fuseint
+Depends: libc, ntfs-3g
+Source: feeds/oldpackages/utils/ntfs-3g
+Section: utils
+Maintainer: Bud <wrt_buddhay@gmx.net>
+Architecture: ramips_24kec
+Installed-Size: 35387
+Filename: ntfs-3g-low_2014.2.15-1-fuseint_ramips_24kec.ipk
+Size: 36248
+MD5Sum: 27ce95cb56c1e1234b82efcd8061af85
+SHA256sum: 6473fa29fd5a7d058e92d95514b6855b012788bae77f2b7fbb4aabc48aabad88
+Description:  Contains:
+ - lowntfs-3g
+ - mount.lowntfs-3g (symlink to lowntfs-3g)
+ 
+ A driver variant using the fuse low-level interface missing some of the
+ enhanced functionality for streams or the like. You might want to check:
+ http://www.tuxera.com/community/ntfs-3g-manual/
+ 
+
+Package: ntfs-3g-utils
+Version: 2014.2.15-1-fuseint
+Depends: libc, ntfs-3g
+Source: feeds/oldpackages/utils/ntfs-3g
+Section: utils
+Maintainer: Bud <wrt_buddhay@gmx.net>
+Architecture: ramips_24kec
+Installed-Size: 124462
+Filename: ntfs-3g-utils_2014.2.15-1-fuseint_ramips_24kec.ipk
+Size: 124776
+MD5Sum: a13a8a48210cba63ed353f25cbd3ae90
+SHA256sum: 1e00edef093f2a26f7b7b630ebb27374fc4aab629f1bea6ecc17f6837a497b89
+Description:  Additional ntfs-3g utilities. Not included by default for size
+ considerations. All binaries except ntfs-3g, ntfs-3g.probe.
+ 
+ Currently:
+ - ntfs-3g.secaudit
+ - ntfs-3g.usermap
+ 
+
+Package: ntfsprogs
+Version: 2.0.0-2
+Depends: libc, libuuid
+Source: feeds/oldpackages/utils/ntfsprogs
+Section: utils
+Maintainer: Gianluigi Tiesi <sherpya@netfarm.it>
+Architecture: ramips_24kec
+Installed-Size: 191930
+Filename: ntfsprogs_2.0.0-2_ramips_24kec.ipk
+Size: 192395
+MD5Sum: e8c2415326bacd2856b758b8713f965c
+SHA256sum: 89de7012ea24520bd87ab8e6ab566554a857e67e1b8224ea6eea09bc02e4c119
+Description:  Tools for managing NTFS volumes from Linux
+
+Package: p910nd
+Version: 0.95-3
+Depends: libc
+Source: feeds/oldpackages/net/p910nd
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 5303
+Filename: p910nd_0.95-3_ramips_24kec.ipk
+Size: 6054
+MD5Sum: 9fabbeaaa4a55899bfa8e6f03b8b9087
+SHA256sum: 2fd383711125bed5d30d666b1a2c14f496c6043cf2474c2a57fafade7fbb8ba1
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: picocom
+Version: 1.7-1
+Depends: libc
+Source: feeds/oldpackages/utils/picocom
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 10264
+Filename: picocom_1.7-1_ramips_24kec.ipk
+Size: 10794
+MD5Sum: db6bbbcb1e65f8839e00449b476bb84b
+SHA256sum: 8d34cfb53974d15667c8b66cf97bbebbe106150482d056565d9752dfc97bcd84
+Description:  minimal dumb-terminal emulation program
+
+Package: remotefs
+Version: 1.0-1
+Depends: libc, libfuse, libpthread
+Source: feeds/oldpackages/net/remotefs
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 36147
+Filename: remotefs_1.0-1_ramips_24kec.ipk
+Size: 36831
+MD5Sum: 95a781e13bd1efa80cb59e51865f2986
+SHA256sum: 8faa03141d1be00a7867e80eebe7bb18a8514f8027fcdd20b1ff719cbc42eacc
+Description:  remotefs is a network file system designed for use with home NAS.
+ Simple to use, few dependencies, reasonable security, completely
+ in user space. Provided remotefs-server package contains server
+ components.
+
+Package: rp-l2tpd
+Version: 0.4-4
+Depends: libc
+Source: feeds/oldpackages/net/rp-l2tp
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 35522
+Filename: rp-l2tpd_0.4-4_ramips_24kec.ipk
+Size: 36119
+MD5Sum: 74ccca41e96e677f77d254300192f3e7
+SHA256sum: c99c43972bea08b6f77280e1514dff8c34836f0da11a20be3bfd9fbaeb048ca7
+Description:  Roaring Penguin L2TP (Layer 2 Tunneling Protocol) implementation.
+
+Package: rp-pppoe-relay
+Version: 3.11-1
+Depends: libc, ppp
+Source: feeds/oldpackages/net/rp-pppoe
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 11622
+Filename: rp-pppoe-relay_3.11-1_ramips_24kec.ipk
+Size: 12223
+MD5Sum: 3ffe4857ea64157a6a042c09655c2852
+SHA256sum: 0615c2f133c2dac9e6280b1b5f6942c48545284e1758746c0ccb2b29301ce733
+Description:  Dubbed RP-PPPoE, this open-source product is ideal for Linux users with
+ a DSL "modem" whose Internet service provider uses PPPoE.
+ .
+ This package contains pppoe-relay.
+
+Package: rp-pppoe-server
+Version: 3.11-1
+Depends: libc, ppp
+Source: feeds/oldpackages/net/rp-pppoe
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 32629
+Filename: rp-pppoe-server_3.11-1_ramips_24kec.ipk
+Size: 33227
+MD5Sum: 03d55aece8f153af34a8338c046fb742
+SHA256sum: 33f31aa931b6db5311e268aeda3eb44763292a0fa2b848db7c567cef2d413913
+Description:  Dubbed RP-PPPoE, this open-source product is ideal for Linux users with
+ a DSL "modem" whose Internet service provider uses PPPoE.
+ .
+ This package contains pppoe-server.
+
+Package: rp-pppoe-sniff
+Version: 3.11-1
+Depends: libc, ppp
+Source: feeds/oldpackages/net/rp-pppoe
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 6937
+Filename: rp-pppoe-sniff_3.11-1_ramips_24kec.ipk
+Size: 7581
+MD5Sum: ee303dfc854242533755922650c1547b
+SHA256sum: d6954f8cad4813b2f03d9be258e09440cc85ca1596a6ae76a3cb26f9b68e3341
+Description:  Dubbed RP-PPPoE, this open-source product is ideal for Linux users with
+ a DSL "modem" whose Internet service provider uses PPPoE.
+ .
+ This package contains pppoe-sniff.
+
+Package: sdparm
+Version: 1.04-1
+Depends: libc, kmod-scsi-generic
+Source: feeds/oldpackages/utils/sdparm
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 70819
+Filename: sdparm_1.04-1_ramips_24kec.ipk
+Size: 71184
+MD5Sum: 2c0f30c0ef4409c79a6f06d9827c8b12
+SHA256sum: a264a73e614e18bb88f451d7b580ee905f2d3891f98982641cb947cae3c38e0e
+Description:  The sdparm utility outputs and in some cases modifies SCSI device
+ parameters.
+
+Package: ser2net
+Version: 2.9.1-1
+Depends: libc
+Source: feeds/oldpackages/net/ser2net
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 25989
+Filename: ser2net_2.9.1-1_ramips_24kec.ipk
+Size: 26631
+MD5Sum: 56d7a616f23c4794ba26961879f80973
+SHA256sum: 4447e176e4cc3ea4502ae4eaf8b6e8b263b38c102b199d5c855871927a8b1255
+Description:  This is ser2net, a program for allowing network connections to serial ports.
+ See the man page for information about using the program. Note that ser2net
+ supports RFC 2217 (remote control of serial port parameters), but you must
+ have a complient client.
+
+Package: setserial
+Version: 2.17-2
+Depends: libc
+Source: feeds/oldpackages/utils/setserial
+Section: utils
+Architecture: ramips_24kec
+Installed-Size: 6675
+Filename: setserial_2.17-2_ramips_24kec.ipk
+Size: 7408
+MD5Sum: a976213990735416353257635b55deb0
+SHA256sum: d1b202967d883b27635c2c115e801d26708e62094fe8977554c2dd589d4bee55
+Description:  setserial is a program designed to set and/or report the
+ configuration information associated with a serial port. This
+ information includes what I/O port and IRQ a particular
+ serial port is using, and whether or not the break key should
+ be interpreted as the Secure Attention Key, and so on.
+
+Package: smap-to-devinfo
+Version: 1.0.0-2
+Depends: libc, mac-to-devinfo, smap, httping
+Source: feeds/oldpackages/net/mac-to-devinfo
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 2181
+Filename: smap-to-devinfo_1.0.0-2_ramips_24kec.ipk
+Size: 2841
+MD5Sum: 23361a37d4fde4be4140fa3c56f7cd19
+SHA256sum: af66b953ebe0b350c1026f3c2e72273ab1cec893d8b24343a2f5b229fd90937c
+Description:  A script to use smap to discover all SIP devices on the networks
+ (provided ICMP and SIP are allowed to the network from the host) and
+ translate (through the ip then mac) into the device information.
+
+Package: sshfs
+Version: 2.2-1
+Depends: libc, libfuse, fuse-utils, glib2, libpthread
+Source: feeds/oldpackages/net/sshfs
+Section: net
+Architecture: ramips_24kec
+Installed-Size: 19341
+Filename: sshfs_2.2-1_ramips_24kec.ipk
+Size: 19866
+MD5Sum: 951f4e8db4319ae0ca35ee8b3e7489dd
+SHA256sum: 8766865d110f94439d0afdd6189152ced3e03c3865cc86d37374c6b6254df9ec
+Description:  Mount remote system over sftp.
+
+Package: sshtunnel
+Version: 3-3
+Depends: libc, openssh-client
+Source: feeds/oldpackages/net/sshtunnel
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 3279
+Filename: sshtunnel_3-3_ramips_24kec.ipk
+Size: 3984
+MD5Sum: b95dae34fa5180082f731683fd408e94
+SHA256sum: 1b34f62078ae1c939d5a2a0fad7c49e1ef7d9e2324b647fe236cce4135528afe
+Description:  Creates openssh ssh(1) Local and Remote tunnels configured in UCI file. Can be used to allow remote connections, possibly over NATed connections or without public IP/DNS
+
+Package: usbip
+Version: 1.1.1-3
+Depends: libc, libsysfs, libwrap, kmod-usbip
+Source: feeds/oldpackages/net/usbip
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 202956
+Filename: usbip_1.1.1-3_ramips_24kec.ipk
+Size: 203353
+MD5Sum: 7ddd425f6d7d8b94f4c76b0d88f08f9c
+SHA256sum: ac6580271bc33dc30c4be32ef92dc7300bf6782bbfca640e64109495b1d3a3d4
+Description:  USB-over-IP (common)
+
+Package: usbip-client
+Version: 1.1.1-3
+Depends: libc, usbip, glib2, kmod-usbip-client
+Source: feeds/oldpackages/net/usbip
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 10861
+Filename: usbip-client_1.1.1-3_ramips_24kec.ipk
+Size: 11415
+MD5Sum: f1f5326e2e7e9208e2ebe6fe6cd74c43
+SHA256sum: ec73dd55af06746647a1bd592a6813f3f543244bcb961002545d24bfef49b55d
+Description:  USB-over-IP (client)
+
+Package: usbip-server
+Version: 1.1.1-3
+Depends: libc, usbip, glib2, kmod-usbip-server
+Source: feeds/oldpackages/net/usbip
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 7310
+Filename: usbip-server_1.1.1-3_ramips_24kec.ipk
+Size: 7903
+MD5Sum: cd50a75c219d19cf5d40fc4a5f6fc1eb
+SHA256sum: 2dae7ecb90a8d3f1f57a7a38a4821d03ea8899e1edaf63f9cab26104f321899b
+Description:  USB-over-IP (server)
+
+Package: ushare
+Version: 1.1a-4
+Depends: libc, libdlna, libupnp, libffmpeg
+Source: feeds/oldpackages/multimedia/ushare
+Section: multimedia
+Architecture: ramips_24kec
+Installed-Size: 26183
+Filename: ushare_1.1a-4_ramips_24kec.ipk
+Size: 26817
+MD5Sum: bdd61f9767b395b69998a18754287597
+SHA256sum: adca812e69d783d19fc8830e5b82268d43d1b4635eb39e5c1bb521f86df5615c
+Description:  uShare is a UPnP (TM) A/V & DLNA Media Server. It implements the server
+ component that provides UPnP media devices with information on available
+ multimedia files.
+
+Package: watchcat
+Version: 1-5
+Depends: libc
+Source: feeds/oldpackages/utils/watchcat
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 2048
+Filename: watchcat_1-5_ramips_24kec.ipk
+Size: 2678
+MD5Sum: 5799fd8926f559c6ce5980749252bb49
+SHA256sum: 23f3435a6a570c0f4d6db4bb99fd9338c9eb86ff7ea59e22e1be25fa611dbe03
+Description:  Allows to configure a periodically reboot, or after loosing internet connectivity. Configured trough UCI /etc/config/system.
+

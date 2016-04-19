@@ -1,0 +1,406 @@
+Package: luci
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-lib-nixio
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 104
+Filename: luci_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 783
+MD5Sum: 9557b33b0405e052ca1c11a10c14ec00
+SHA256sum: 74428098d49d753dcd0a84553486937d992b84f65670fa1dac6548d48a08f56b
+Description:  Standard OpenWrt set including full admin with ppp support and the default OpenWrt theme
+
+Package: luci-app-commands
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 15414
+Filename: luci-app-commands_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 15985
+MD5Sum: dd9e48e704f3c0bb015b03610b0d40e3
+SHA256sum: 8e8e63fe003318fa907be4b98d71316f1498054a66e08becb531c35665f0d018
+Description:  LuCI Shell Command Module
+
+Package: luci-app-ddns
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, ddns-scripts
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 11279
+Filename: luci-app-ddns_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 11881
+MD5Sum: aa736b05b063198003d0c6b9db92a14a
+SHA256sum: 8b6ac4e8121776e9faa2c127f0959644073277c02ce862ecedf8538b5062d37a
+Description:  Dynamic DNS configuration module
+
+Package: luci-app-diag-core
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 5682
+Filename: luci-app-diag-core_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 6289
+MD5Sum: f8c4ea8bcd596794745c50f204983cb9
+SHA256sum: 6178735e24fe50b7c3ae1b098fe518fee1b0424b1b79333caa7db300a012973b
+Description:  LuCI Diagnostics Tools (Core)
+
+Package: luci-app-diag-devinfo
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, luci-app-diag-core, smap, netdiscover, mac-to-devinfo, httping, smap-to-devinfo, netdiscover-to-devinfo
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 27907
+Filename: luci-app-diag-devinfo_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 28620
+MD5Sum: 3d5392d88a44e9549fdc86e567f5ec16
+SHA256sum: d323b8be75a7a7cc637d0fbe2a519d810c5cdedc2cd0885c410597d886a64017
+Description:  LuCI Diagnostics Tools (Device Info)
+
+Package: luci-app-firewall
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, firewall
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 63316
+Filename: luci-app-firewall_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 63993
+MD5Sum: 134a6f7e4b4bf8b6ad1a07d212d5e48a
+SHA256sum: 76eeaefbdd30bf69b742d32ee7a284cd750e194d241d1278ccde13fa909dd0f1
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-hd-idle
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, hd-idle
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 6193
+Filename: luci-app-hd-idle_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 6967
+MD5Sum: 1306354d192a973efdc60182ef78989a
+SHA256sum: 5e021944d66a88e27f768937581316cee9c2cbea9743993ffb509c140acbf780
+Description:  Hard Disk Idle Spin-Down module
+
+Package: luci-app-minidlna
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, minidlna
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 20736
+Filename: luci-app-minidlna_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 21357
+MD5Sum: 8132d77b2f97db0369da7a6f34f66b08
+SHA256sum: 87dbb11c71529659e33087f72f5587f4009424aa9095e1e183c00b3659160944
+Description:  LuCI Support for miniDLNA
+
+Package: luci-app-mmc-over-gpio
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, kmod-mmc-over-gpio
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 3832
+Filename: luci-app-mmc-over-gpio_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 4559
+MD5Sum: 4c99dbfe2e133e27607b1f3928ab02db
+SHA256sum: 631ab23353fb9a6fd3a17ba1bd10279f1c98ac250d703449a723ad0a0d20fed7
+Description:  MMC-over-GPIO configuration module
+
+Package: luci-app-multiwan
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, luci-app-firewall, multiwan
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 15046
+Filename: luci-app-multiwan_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 15660
+MD5Sum: bcb56c5cc8dac46172b29a9cca316b95
+SHA256sum: a2b00f46cd6567392a013bb73650e623f18a699060c9e7c8c08346d4a573c21b
+Description:  LuCI Support for the OpenWrt MultiWAN agent
+
+Package: luci-app-p910nd
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, p910nd
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 6705
+Filename: luci-app-p910nd_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 7481
+MD5Sum: 6db09dc85e15a343b9d07137d36894b4
+SHA256sum: a62e2ef2406bc8d1cc99ebc57cb13cef7c9f2c2a732fc467fcb37be56a0d8d8c
+Description:  p910nd - Printer server module
+
+Package: luci-app-qos
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, qos-scripts
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 10912
+Filename: luci-app-qos_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 11515
+MD5Sum: 545f9b6fd53e8158c1e7304903ad7dad
+SHA256sum: b4cae897225a007689361535a473254dd536de268857fdbf0b0007b71ccde378
+Description:  Quality of Service configuration module
+
+Package: luci-app-samba
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, samba36-server
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 12489
+Filename: luci-app-samba_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 13124
+MD5Sum: 720557d5df63d5b0a3f1bab96dc7144f
+SHA256sum: dad72feeadafca05bda7ae871611097103aee9704e3a9c11c81c02f423feb400
+Description:  Network Shares - Samba SMB/CIFS module
+
+Package: luci-app-transmission
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, transmission-daemon
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 27040
+Filename: luci-app-transmission_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 27617
+MD5Sum: 86b9afb4d2356bf4a5027802b58f89b8
+SHA256sum: a0542f2041d5e19dec82139e2a1897cdef1de79c1279e7c8ba7e30253ccd9c58
+Description:  LuCI Support for Transmission
+
+Package: luci-app-upnp
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, miniupnpd
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 19938
+Filename: luci-app-upnp_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 20570
+MD5Sum: 0cbf0f4f3f57c9ae40b346980cb0966b
+SHA256sum: ff4f2314f18e130f3150a7dec3dffa02d07d4d9b3b55ebd2aa717a6e6de346de
+Description:  Universal Plug & Play configuration module
+
+Package: luci-app-ushare
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, ushare
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 7028
+Filename: luci-app-ushare_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 7798
+MD5Sum: d9f20b6e30903a470146b904c02a6e27
+SHA256sum: 025a20525daed5930c0ff7680eedf0824a8f810bfa73341767f4b54d0d719421
+Description:  uShare - UPnP A/V & DLNA Media Server
+
+Package: luci-app-watchcat
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, watchcat
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 9313
+Filename: luci-app-watchcat_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 10105
+MD5Sum: 5a99f69bd9344cd8b623716e3876f64c
+SHA256sum: 8db783e5ce52dbcefffd0b60b8e06b86183dad1ca7e2b30484de8f0b0987c6ab
+Description:  LuCI Support for Watchcat
+
+Package: luci-app-wol
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, etherwake
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 8885
+Filename: luci-app-wol_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 9533
+MD5Sum: 57db005c88c88faddcca99b4831456e2
+SHA256sum: 67e3e1ec9e16a4b060a326df64755d45f59c705ab6ed51231df5b5cb631d52ee
+Description:  LuCI Support for Wake-on-LAN
+
+Package: luci-app-wshaper
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, wshaper
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 7379
+Filename: luci-app-wshaper_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 8128
+MD5Sum: 7ea6c92490b2349545f9e160eba672e4
+SHA256sum: 34873b55ecd3181be7ef9e39d09a10d41c007025e00c2d20e94b3d1fbc32cea5
+Description:  LuCI Support for wshaper
+
+Package: luci-base
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, lua, libuci-lua, libubus-lua
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 140877
+Filename: luci-base_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 141660
+MD5Sum: 29aed3f8870c2035aa8626fd05fbee00
+SHA256sum: e3d6cede7b807d92c422e836e85ba91ecd48902a1695ec1614ab2eece7da2bcd
+Description:  LuCI core libraries
+
+Package: luci-i18n-russian
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 24456
+Filename: luci-i18n-russian_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 25184
+MD5Sum: 4818d1883c6706358840bd29d9f005cb
+SHA256sum: 30c66002bd7c0e1dc0c336521b70f9ff53fb7d9c7f6a76316bb7426b028beb7a
+Description:  Russian (by Skryabin Dmitry)
+
+Package: luci-lib-nixio
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, luci-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 29493
+Filename: luci-lib-nixio_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 30007
+MD5Sum: 7084c5a7ab0bf6f7bf72447b5ae272a5
+SHA256sum: d3f924be9a74e8760ea85cade0bd1b7f28ca450981591edcd9153441008275c6
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, luci-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 66624
+Filename: luci-mod-admin-full_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 67292
+MD5Sum: ae7071080fb27684720f79164d095d86
+SHA256sum: a4f19395d907cc9969eb03759cbe70030a0267b50524f889906e80d69c5ba49d
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-3g
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, comgt
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 1842
+Filename: luci-proto-3g_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 2420
+MD5Sum: d2fe27987a45b6672a21420103b330ac
+SHA256sum: a997ba8b59841dd6667a0cf506091c170a4bbf986478c67998af74cd60fdbea3
+Description:  Support for 3G
+
+Package: luci-proto-ipv6
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 3431
+Filename: luci-proto-ipv6_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 4047
+MD5Sum: b751a969cdd78ea28950b996b18be27d
+SHA256sum: 74c9a17ec5eb9fa4071f220082ee6718b3be03d841f9c87d3d8e7bcd50369159
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
+
+Package: luci-proto-ppp
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 2997
+Filename: luci-proto-ppp_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 3576
+MD5Sum: 08583599d468644c7e088750410e0ae6
+SHA256sum: 55854fc33d4b37c7ac271b9cd546e83d5a415964cd66153700660bec115dd389
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-proto-relay
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, relayd
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 2208
+Filename: luci-proto-relay_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 2814
+MD5Sum: 29fdd08953ae72839de9a81f5341a8f5
+SHA256sum: 78f9efac1e134d5056ec74d2bb2cb0a8aae8a58abc11ccc559e7fada14ae1f65
+Description:  Support for relayd pseudo bridges
+
+Package: luci-theme-bootstrap
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 12965
+Filename: luci-theme-bootstrap_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 13648
+MD5Sum: bcc4ef3c54f51bd4bd94a03a075aaeeb
+SHA256sum: 4ae9505f5e78e523272a2581400e1ea82103215172939915d9d4d93e61b8f4db
+Description:  Bootstrap Theme (default)
+
+Package: luci-theme-openwrt
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips_24kec
+Installed-Size: 7019
+Filename: luci-theme-openwrt_0.12+git-15.112.69076-6153b99-1_ramips_24kec.ipk
+Size: 7760
+MD5Sum: 199d3da7293e0aebe39438befd098f6d
+SHA256sum: 047d24f6651a0cc7dc24f81d7da7c38259d61bf21b620bd20467d40346b38609
+Description:  OpenWrt.org
+
